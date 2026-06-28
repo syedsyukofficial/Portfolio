@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+
+<html lang="ms">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Syed Muhammad Syukran | Pegawai Syariah • Mutawwif • Penceramah</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+
+<style>
+
+:root{
+--primary:#0F766E;
+--gold:#D4AF37;
+--dark:#0f172a;
+--light:#f8fafc;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Segoe UI',sans-serif;
+background:#f8fafc;
+color:#334155;
+}
+
+.navbar{
+background:rgba(15,118,110,.95);
+backdrop-filter:blur(10px);
+}
+
+.navbar-brand,
+.nav-link{
+color:white !important;
+font-weight:600;
+}
+
+.hero{
+min-height:100vh;
+display:flex;
+align-items:center;
+background:
+linear-gradient(rgba(0,0,0,.65),rgba(0,0,0,.65)),
+url("https://images.unsplash.com/photo-1542816417-0983670d13c2?q=80&w=2000");
+background-size:cover;
+background-position:center;
+color:white;
+}
+
+.profile-image{
+width:420px;
+max-width:100%;
+border-radius:30px;
+border:6px solid var(--gold);
+box-shadow:0 25px 60px rgba(0,0,0,.4);
+background:white;
+transition:.4s;
+}
+
+.profile-image:hover{
+transform:translateY(-10px);
+}
+
+.hero-title{
+font-size:3.2rem;
+font-weight:800;
+}
+
+.hero-sub{
+font-size:1.2rem;
+color:var(--gold);
+font-weight:600;
+}
+
+.btn-gold{
+background:var(--gold);
+color:black;
+font-weight:700;
+padding:12px 30px;
+border:none;
+}
+
+.btn-gold:hover{
+background:#e7c14c;
+}
+
+.section{
+padding:90px 0;
+}
+
+.section-title{
+text-align:center;
+margin-bottom:60px;
+}
+
+.section-title h2{
+font-weight:800;
+color:var(--primary);
+}
+
+.card-custom{
+border:none;
+border-radius:20px;
+padding:30px;
+height:100%;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+transition:.3s;
+}
+
+.card-custom:hover{
+transform:translateY(-10px);
+}
+
+.badge-skill{
+display:inline-block;
+background:var(--primary);
+color:white;
+padding:10px 16px;
+margin:5px;
+border-radius:30px;
+}
+
+.timeline{
+border-left:4px solid var(--gold);
+padding-left:25px;
+}
+
+.timeline-item{
+margin-bottom:30px;
+position:relative;
+}
+
+.timeline-item::before{
+content:"";
+width:18px;
+height:18px;
+background:var(--gold);
+border-radius:50%;
+position:absolute;
+left:-36px;
+top:5px;
+}
+
+.stats{
+background:var(--primary);
+color:white;
+}
+
+.counter{
+font-size:3rem;
+font-weight:800;
+}
+
+.contact-box{
+background:white;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,.08);
+}
+
+footer{
+background:#0f172a;
+color:white;
+padding:30px;
+text-align:center;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg fixed-top">
+<div class="container">
+
+<a class="navbar-brand" href="#">
+SYUKRAN
+</a>
+
+<button class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#menu">
+<span class="navbar-toggler-icon"></span>
+</button>
+
+<div class="collapse navbar-collapse" id="menu">
+
+<ul class="navbar-nav ms-auto">
+
+<li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+<li class="nav-item"><a class="nav-link" href="#expertise">Kepakaran</a></li>
+<li class="nav-item"><a class="nav-link" href="#experience">Pengalaman</a></li>
+<li class="nav-item"><a class="nav-link" href="#services">Perkhidmatan</a></li>
+<li class="nav-item"><a class="nav-link" href="#contact">Hubungi</a></li>
+
+</ul>
+
+</div>
+
+</div>
+</nav>
+
+<section class="hero">
+
+<div class="container">
+
+<div class="row align-items-center">
+
+<div class="col-lg-5 text-center mb-4">
+
+<img src="profile.png"
+alt="Syed Muhammad Syukran"
+class="profile-image">
+
+</div>
+
+<div class="col-lg-7">
+
+<h1 class="hero-title">
+SYED MUHAMMAD SYUKRAN
+</h1>
+
+<p class="hero-sub">
+Pegawai Syariah • Mutawwif Umrah • Pembimbing Haji & Umrah • Penceramah
+</p>
+
+<p class="lead">
+Membimbing Ummah Dengan Ilmu, Hikmah dan Integriti.
+</p>
+
+<p>
+Fiqh • Al-Quran & Tajwid • Haji & Umrah • Halal • Falak • Kekeluargaan Islam
+</p>
+
+<a href="#contact" class="btn btn-gold">
+Hubungi Saya
+</a>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="stats section">
+
+<div class="container">
+
+<div class="row text-center">
+
+<div class="col-md-3">
+<div class="counter">10+</div>
+Pengalaman Profesional
+</div>
+
+<div class="col-md-3">
+<div class="counter">100+</div>
+Ceramah & Tazkirah
+</div>
+
+<div class="col-md-3">
+<div class="counter">50+</div>
+Program Umrah & Haji
+</div>
+
+<div class="col-md-3">
+<div class="counter">1000+</div>
+Peserta Dibimbing
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="about" class="section">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Tentang Saya</h2>
+</div>
+
+<p class="text-center fs-5">
+
+Seorang profesional Syariah yang aktif dalam bidang dakwah, pendidikan Islam, audit syariah, pematuhan syariah, pembangunan insan, pengurusan program dan khidmat masyarakat. Berpengalaman sebagai Pegawai Syariah Hospital PUSRAWI, Mutawwif Umrah, Pembimbing Haji serta penceramah jemputan di pelbagai institusi dan organisasi.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="expertise" class="section bg-light">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Bidang Kepakaran</h2>
+</div>
+
+<div class="text-center">
+
+<span class="badge-skill">Fiqh & Syariah</span> <span class="badge-skill">Al-Quran & Tajwid</span> <span class="badge-skill">Haji & Umrah</span> <span class="badge-skill">Industri Halal</span> <span class="badge-skill">Falak Syarie</span> <span class="badge-skill">Kekeluargaan Islam</span> <span class="badge-skill">Audit Syariah</span> <span class="badge-skill">Pematuhan Syariah</span> <span class="badge-skill">Latihan Korporat</span> <span class="badge-skill">CSR & Komuniti</span>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="experience" class="section">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Pengalaman & Kelayakan</h2>
+</div>
+
+<div class="timeline">
+
+<div class="timeline-item">
+<h5>Shariah Executive - Hospital PUSRAWI</h5>
+<p>Audit Syariah, Pematuhan Syariah, Wakalah dan Program Islamik.</p>
+</div>
+
+<div class="timeline-item">
+<h5>Mutawwif Umrah - Mursyid Al-Haramain</h5>
+<p>Membimbing dan mengurus jemaah umrah.</p>
+</div>
+
+<div class="timeline-item">
+<h5>Pembimbing Ibadah Haji Tanah Air (PEKTA)</h5>
+<p>Lembaga Tabung Haji.</p>
+</div>
+
+<div class="timeline-item">
+<h5>Eksekutif Pembimbing Haji & Umrah (EPIH)</h5>
+<p>Program TH-USIM.</p>
+</div>
+
+<div class="timeline-item">
+<h5>Eksekutif Halal</h5>
+<p>JAKIM - UKM.</p>
+</div>
+
+<div class="timeline-item">
+<h5>Panel Penceramah Radio IKIM FM</h5>
+<p>Program dakwah dan pendidikan Islam.</p>
+</div>
+
+<div class="timeline-item">
+<h5>Penceramah Jemputan</h5>
+<p>Masjid, surau, hospital, sekolah, universiti dan korporat.</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="services" class="section bg-light">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Perkhidmatan</h2>
+</div>
+
+<div class="row g-4">
+
+<div class="col-md-4">
+<div class="card-custom">
+<h4><i class="fa-solid fa-microphone"></i> Ceramah</h4>
+<p>Ceramah, forum, kuliah dan tazkirah.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card-custom">
+<h4><i class="fa-solid fa-kaaba"></i> Haji & Umrah</h4>
+<p>Kursus, bimbingan dan latihan praktikal.</p>
+</div>
+</div>
+
+<div class="col-md-4">
+<div class="card-custom">
+<h4><i class="fa-solid fa-scale-balanced"></i> Syariah & Halal</h4>
+<p>Latihan, konsultasi dan audit syariah.</p>
+</div>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section id="contact" class="section">
+
+<div class="container">
+
+<div class="section-title">
+<h2>Hubungi Saya</h2>
+</div>
+
+<div class="contact-box text-center">
+
+<h3>SYED MUHAMMAD SYUKRAN BIN SYED NOAH</h3>
+
+<p>
+<i class="fa-solid fa-phone"></i>
++6019-4138743
+</p>
+
+<p>
+<i class="fa-solid fa-envelope"></i>
+syedsyuk.official@gmail.com
+</p>
+
+<p>
+Shah Alam, Selangor
+</p>
+
+<a href="https://wa.me/60194138743"
+class="btn btn-success btn-lg">
+WhatsApp Sekarang </a>
+
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<p>
+© 2026 Syed Muhammad Syukran | Pegawai Syariah • Mutawwif • Penceramah
+</p>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
